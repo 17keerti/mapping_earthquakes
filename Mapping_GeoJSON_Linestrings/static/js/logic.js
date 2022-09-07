@@ -38,7 +38,7 @@ L.control.layers(baseMaps).addTo(map);
 
 // Accessing the Toronto airline routes GeoJSON URL.
 let torontoData =
-  "https://raw.githubusercontent.com/17keerti/Mapping_Earthquakes/main/torontoRoutes.json";
+  "https://raw.githubusercontent.com/17keerti/mapping_earthquakes/main/torontoRoutes.json";
 
 // Grabbing our GeoJSON data.
 d3.json(torontoData).then(function (data) {
